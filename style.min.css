@@ -1,0 +1,106 @@
+/*! ADD WIDGET 1.1.0 | https://addwidget.in | (c) 2022 - 2023 navycoder | MIT License */
+html {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    background: #fff;
+    color: #666
+}
+body {
+    margin: 0
+}
+.aw-link,
+a {
+    color: #1e87f0;
+    text-decoration: none;
+    cursor: pointer
+}
+.aw-link-toggle:hover .aw-link,
+.aw-link:hover,
+a:hover {
+    color: #0f6ecd;
+    text-decoration: underline
+}
+abbr[title] {
+    text-decoration: underline dotted;
+    -webkit-text-decoration-style: dotted
+}
+b,
+strong {
+    font-weight: bolder
+}
+:not(pre)>code,
+:not(pre)>kbd,
+:not(pre)>samp {
+    font-family: Consolas, monaco, monospace;
+    font-size: .875rem;
+    color: #f0506e;
+    white-space: nowrap;
+    padding: 2px 6px;
+    background: #f8f8f8
+}
+em {
+    color: #f0506e
+}
+ins {
+    background: #ffd;
+    color: #666;
+    text-decoration: none
+}
+mark {
+    background: #ffd;
+    color: #666
+}
+q {
+    font-style: italic
+}
+small {
+    font-size: 80%
+}
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+sup {
+    top: -.5em
+}
+sub {
+    bottom: -.25em
+}
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle
+}
+canvas,
+img,
+svg,
+video {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box
+}
+img:not([src]) {
+    visibility: hidden;
+    min-width: 1px
+}
+iframe {
+    border: 0
+}
+address,
+dl,
+fieldset,
+figure,
+ol,
+p,
+pre,
+ul {
+    margin: 0 0 20px 0
+}
