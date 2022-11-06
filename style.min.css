@@ -58,8 +58,8 @@ q {
 small {
     font-size: 80%
 }
-sub,
-sup {
+sub,sup 
+{
     font-size: 75%;
     line-height: 0;
     position: relative;
@@ -71,18 +71,12 @@ sup {
 sub {
     bottom: -.25em
 }
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+audio,canvas,iframe,img,svg,video 
+{
     vertical-align: middle
 }
-canvas,
-img,
-svg,
-video {
+canvas,img,svg,video 
+{
     max-width: 100%;
     height: auto;
     box-sizing: border-box
@@ -94,13 +88,7 @@ img:not([src]) {
 iframe {
     border: 0
 }
-address,
-dl,
-fieldset,
-figure,
-ol,
-p,
-pre,
-ul {
+address,dl,fieldset,figure,ol,p,pre,ul 
+{
     margin: 0 0 20px 0
 }
